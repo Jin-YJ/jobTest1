@@ -1,7 +1,11 @@
 <template>
     <div>
         <div class="parent-container">
-            <h2>당신의 사랑의 언어는? </h2> <h2 class="fontStyle">{{jobType}}</h2>
+            <h2><p>당신과 어울리는 직업 유형은?</p> </h2>
+
+        </div>
+        <div class="parent-container">
+            <h2 class="fontStyle"><p>{{jobType}}</p></h2>
         </div>
         <div class="info-box">
             <h3><p style="text-align : left;">{{ jobType }} 유형 결과 해석</p></h3><br><br>
@@ -15,9 +19,9 @@
             
             <p class="content-header"> {{type5.headper}} </p> <p class="content-substance"> {{type5.content}} </p>
             
-            <p> 추천직업 : </p>
+            <p class="content-header"> 추천직업 : </p>
             <ul>
-                <li v-for ="(item,index) in content" :key="index"> {{item}} </li>
+                <li v-for ="(item,index) in content" :key="index" class="content-header"> {{item}} </li>
             </ul>
         </div>
     </div>
