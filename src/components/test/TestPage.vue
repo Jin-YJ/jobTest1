@@ -1,5 +1,5 @@
 <template>
-  <div  style="width : 80%;">
+  <div class="main-container">
     <div class="parent-container">
       <div class="progress-indicator-container">
         <div
@@ -190,7 +190,14 @@ export default {
 };
 </script>
 <style>
-
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto; /* 가운데 정렬을 위해 자동 마진 적용 */
+}
 .progress-indicator-container {
   width: 70%;
   background-color: rgb(172, 215, 231);
@@ -213,19 +220,18 @@ export default {
 
 .parent-container, .questionx-container {
   display: flex;
-  justify-content: center; /* 가운데 정렬 */
-  align-items: center; /* 세로 방향 가운데 정렬 */
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* 전체 너비 사용 */
 }
-
 .questionx-container {
-  flex-direction: column; /* 자식 요소들을 세로 방향으로 정렬 */
-  width: 100%; /* 필요한 경우 가로 크기 조절 */
-  margin-top: 20px; /* 상단 여백 조절 */
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 .buttonClass {
   background-color: rgb(150, 150, 255);
-  width: 80%;
+  width: 80%; /* 버튼 너비 조정 */
   color: white;
   font-weight: 900;
   border: 0px;
