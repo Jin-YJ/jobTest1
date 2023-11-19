@@ -1,8 +1,8 @@
 <template>
   <div class="mainContainer" style="background-color: skyblue;">
-    <img :src="image" style="width: 20%;"/>
+    <img :src="image" style="width: 80%;"/>
     <div class="container">
-      <button class="buttonClass" @click="testStart" style="width: 10%; height: 20%;">테스트 시작하기</button>
+      <button class="buttonClass" @click="testStart" style="width: 80%;">테스트 시작하기</button>
     </div>
   </div>
 </template>
