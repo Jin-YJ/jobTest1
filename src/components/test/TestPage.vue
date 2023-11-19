@@ -225,8 +225,7 @@ export default {
 
 .buttonClass {
   background-color: rgb(150, 150, 255);
-  width: 700px;
-  height: 80px;
+  width: 80%;
   color: white;
   font-weight: 900;
   border: 0px;
