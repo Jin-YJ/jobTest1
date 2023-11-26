@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'CuteFont';
+    src: url('@/assets/font/CuteFont-Regular.ttf') format('truetype');
+  }
+  
+  /* main.css */
+.cute-font {
+    font-family: 'CuteFont', sans-serif;
+  }
+  
