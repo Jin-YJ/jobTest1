@@ -8,13 +8,13 @@
         ></div>
       </div>
     </div>
-    <div class="questionx-container">
+    <div class="questionx-container cute-font" >
       <h1>{{ currentStep }}/{{ totalSteps }}</h1>
       <h2>{{ question[currentStep - 1].question }}</h2>
-      <button class="buttonClass" @click="nextStep('A')">
+      <button class="buttonClass cute-font" @click="nextStep('A')">
         {{ question[currentStep - 1].A }}</button
       ><br />
-      <button class="buttonClass" @click="nextStep('B')">
+      <button class="buttonClass cute-font" @click="nextStep('B')">
         {{ question[currentStep - 1].B }}
       </button>
     </div>
@@ -27,35 +27,35 @@ export default {
     return {
       question: [
         {
-          question: "프로젝트 기획 단계에서 나는 주로:",
+          question: "여행을 계획할때 나는?",
           A: "새롭고 창의적인 아이디어를 제시한다.",
-          B: "팀이 설정한 목표를 달성하기 위한 실질적인 계획을 세운다.",
+          B: "계획은 무슨 계획이야! 일단 출발하고 본다.",
         },
         {
-          question: "봉사 활동을 할 때 나는:",
-          A: "사람들과 직접 상호작용하며 도움을 제공하는 것을 선호한다.",
-          B: "조직의 배후에서 일하며 운영을 원활하게 하는데 기여한다.",
+          question: "친구들과의 모임에서 나는?",
+          A: "타고난 썰부자! 이 구역 MC는 나야나!",
+          B: "본투비 리스너👂, 이야기를 잘 들어주며 적절한 리액션으로 편안한 분위기를 만든다.",
         },
         {
-          question: "어려운 문제를 해결할 때 나는:",
-          A: "복잡한 문제를 분석하고 체계적으로 접근하는 것을 좋아한다.",
-          B: "직관과 경험을 바탕으로 문제에 접근한다.",
+          question: "설레는 소개팅을 마친 후 그(녀)와 약속이 잡혔다. 맛집을 찾을때 나는?",
+          A: "리뷰부터 별점까지 리스트로 작성해서 선택한다",
+          B: "위치, 메뉴, 분위기만 보고 끌리는 곳으로 선택한다.",
         },
         {
-          question: "예술 관련 수업을 들을 때 나는:",
-          A: "자유롭게 창작하는 활동에 더 몰입한다.",
-          B: "예술 작품의 역사적 배경이나 이론을 배우는 것에 관심이 많다.",
+          question: "영화를 보러가기로 했다 이때 나는?",
+          A: "외계생명체, 우주, 인조인간 얘기가 재밌지! SF영화를 고른다.",
+          B: "감동적인 역사적 사실이나 인물 얘기가 좋아! 역사영화를 고른다.",
         },
         {
-          question: "야외 활동을 계획할 때 나는:",
+          question: "한 주가 지나고 주말이 왔다! 이때 나는?",
           A: "모험을 즐기고 자연 속에서의 새로운 활동을 탐색한다.",
           B: "알려진 경로와 활동을 따라 안전하고 조직된 경험을 추구한다.",
         },
 
         {
           question: "프로젝트가 예기치 않게 변할 때 나는:",
-          A: "유연하게 대처하고 새로운 상황에 적응한다.",
-          B: "원래 계획을 최대한 유지하려고 노력한다.",
+          A: "집에서 쉬기에는 주말이 너무 아까워! 뭐 할지 검색을 해본다!",
+          B: "나가긴 어딜나가.. 집에서 넷플릭스나 봐야지!",
         },
         {
           question: "여러 업무를 처리해야 할 때 나는:",
