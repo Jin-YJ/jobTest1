@@ -28,8 +28,8 @@ export default {
       question: [
         {
           question: "여행을 계획할때 나는?",
-          A: "새롭고 창의적인 아이디어를 제시한다.",
-          B: "계획은 무슨 계획이야! 일단 출발하고 본다.",
+          A: "계획은 무슨 계획이야! 일단 출발하고 본다.",
+          B: "시간별로 꼼꼼하게 어디를 갈지 계획을 세운다.",
         },
         {
           question: "친구들과의 모임에서 나는?",
@@ -236,6 +236,7 @@ export default {
   font-weight: 900;
   border: 0px;
   margin-top: 10px;
+  font-size: 20px;
 }
 </style>
 
