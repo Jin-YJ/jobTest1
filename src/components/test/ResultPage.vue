@@ -180,6 +180,8 @@ export default {
           "부동산 중개사, 경찰관, 교사, 세무사";
         document.body.style.backgroundColor = "#013220";
       }
+
+      document.body.style.backgroundColor = "#FFFFFF";
     },
   },
 };
